@@ -1,5 +1,5 @@
 .find__cars-left {
-    background: linear-gradient(rgba(0, 28, 200, 0.7), rgba(0, 22, 95, 0.7)),
+    background:linear-gradient(rgb(0, 33, 90, 0.7), rgb(0, 33, 90, 0.7)),
       url("../assets/all-images/prado4.jpg");
     background-position: center;
     background-repeat: no-repeat;

@@ -10,22 +10,20 @@ const AboutSection = ({ aboutClass }) => {
       style={
         aboutClass === "aboutPage"
           ? { marginTop: "0px" }
-          : { marginTop: "280px" }
+          : { marginTop: "100px" }
       }
     >
       <Container className="container">
         <Row>
           <Col lg="14" md="14">
             <div className="about__section-content">
-              {/* <h4 className="section_title">About Us</h4> */}
-              <h2 className="section_subtitle">Welcome to Helmic Car Rental.</h2>
+              <h4 className="section_subtitle">About Us</h4>
+              <h2 className="section_title">Welcome to Etsav Car Rental.</h2>
               <p className="section_description">
-              Helmic Car Rental, is a member of Helmic Group Company Ltd. We not only pride
-ourselves on being a leading car rental company offering premium-quality cars and a
-highly efficient service, but we are also a company that can meet your every need,
-taking you anywhere that you might want to go. When on the road, Helmic Car Rental can be your most trusted companion. The
-company is even able to offer advice and tips regarding vehicles and motoring
-that will help your company to grow successfully.
+              Etsav travel agent and car rental, is member Of Helmic Group Cornpany Ltd.
+               only pride ourselves on being a leading car rental company offering premium-quality cars and a highly efficient service, but we are also a company that can meet your every need.
+                taking you anywhere that you might want to go. When an the road. 
+                Etsav Car Rental can be your most trusted COmpaniOn. The company is even able to offer advice and tips regarding vehides and nw!ering that  help Vour company to grow successfully.	
               </p>
 
               <div className="about__section-item d-grid align-items-center">

@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <Helmet>
        {/* ============= hero section =========== */}
-       <section className="p-0 hero__slider-section">
+       
         <HeroSlider />
-        <div className="hero__form">
+        {/* <div className="hero__form">
           <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
@@ -32,8 +32,8 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-        </div>
-        </section>
+        </div> */}
+        
         {/* =========== about section ================ */}
       <AboutSection />
        {/* ========== services section ============ */}
@@ -42,7 +42,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               {/* <h6 className="section__subtitle1">See our</h6> */}
-              <h2 className="section__title1">Our Services</h2>
+              <h2 className="section__title1 p-5">Our Services</h2>
             </Col>
 
             <ServicesList />
@@ -53,9 +53,9 @@ const Home = () => {
        <section>
         <Container>
           <Row>
-            <Col lg="12" className="text-center mb-5">
+            <Col lg="12" className="text-center mb-5 p-5">
               {/* <h6 className="section_subtitle"></h6> */}
-              <h2 className="section__title1">Our Cars</h2>
+              <h2 className="section__title1 ">Our Cars</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (

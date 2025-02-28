@@ -1,84 +1,134 @@
+.newsletter-container {
+  display: flex;
+  flex-direction: row; /* Set flex direction to row */
+  justify-content: space-between; /* Add space between title and form */
+  align-items: center; /* Align items vertically */
+  background-color: #fcfcfc; /* Change to match your design */
+  padding: 10rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15rem;
+  border-radius: 0px;
+  box-shadow: 0 5px 30px rgba(27, 27, 27, 0.242);
+  width: 100%;
+  top: 20px;
+  overflow: hidden;
+}
+
+.newsletter-title {
+  flex: 1; /* Make the title section flexible */
+  margin-right: 20px; /* Add spacing between the title and form */
+}
+
+.newsletter-title h5 {
+  font-size: 0.9rem;
+  color: #43A800;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.newsletter-title h2 {
+  font-size: 24px;
+  color: #252525;
+  font-weight: bold;
+  margin-bottom: 0rem; /* Remove bottom margin for better alignment */
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  flex: 2; /* Make the form section take more space */
+  max-width: 500px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 1px solid #43A800;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.newsletter-form button {
+  background-color: #43A800; /* Gold color */
+  border-radius: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #43A800;
+  font-size: 18px;
+  color: #252525;
+}
+
+.newsletter-form button:hover {
+  background-color: #43A800;
+}
+
+.newsletter-form input::placeholder {
+  color: #7c8a97;
+  font-size: 0.9rem;
+}
+
+.send-icon {
+  font-size: 18px;
+}
+
+
+
 .footer {
-    background: #000d6b;
-    padding-top: 50px;
-    padding-bottom: 15px;
+  background: #007f4e;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  column-gap: 4rem;
    
   }
   
-  /* .footer__logo i {
-    color: #fff;
-    font-size: 400px;
-    background-image: url("../assets/all-images/helmiclogo.png");
-    background-position:left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -150px;
-    margin-top: 15px;
-    line-height: 30px;
-  }
-  
-  .footer__logo span {
-    color: #fff;
-    font-weight: 400;
-    font-size: .9rem;
-  }
-  
-  .footer__logo-content {
-    color: rgba(255, 255, 255, 0.715);
-    margin-top: 15px;
-    line-height: 30px;
-  } */
-  
+    
   .quick__link {
     border: none !important;
     background: transparent !important;
     padding-left: 400px;
-    align-items: center;
+    
   }
+
+  
   
   .quick__link a {
-    color: rgba(255, 255, 255, 0.715);
+    color: #F9FBFF;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 0.8rem;
     transition: 0.3s;
   }
   
   .quick__link a:hover {
-    color: #ffd700;
+    color: #43A800;
   }
   
   .footer__link-title {
-    color: #fff;
+    color: #F9FBFF;
   }
   
+  .office__info1{
+    color: #F9FBFF;
+    font-size: 0.8rem;
+    font-weight: 00;
+    line-height: 20px;
+    text-align: justify;
+    margin-right: 40px;
+  }
   .office__info {
-    color: rgba(255, 255, 255, 0.715);
+    color: #F9FBFF;
     font-weight: 300;
+    font-size: 0.9rem;
+
   }
   .section__description{
-    color: #b4b4b4;
+    color: #F9FBFF;
     
-  }
-  
-  .newsletter {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 12px;
-    border: 1px solid #1817172f;
-    border-radius: 50px;
-    background: #020a4de9;
-  }
-  
-  .newsletter input {
-    background: transparent;
-    color: #fff;
-    border: none;
-    outline: none;
-  }
-  
-  .newsletter span i {
-    color: #fff;
   }
   
   .footer__bottom {
@@ -86,10 +136,9 @@
   }
   
   @media only screen and (max-width: 768px) {
-    .footer__logo-content {
-      font-size: 0.8rem;
+    .office__info1{
+      text-align: start;
     }
-  
     .quick__link,
     .office__info {
       font-size: 0.8rem;
@@ -103,6 +152,27 @@
   
     .footer__bottom p {
       font-size: 0.7rem;
+    }
+
+    .newsletter-container {
+      display: flex;
+      flex-direction: column; /* Set flex direction to row */
+      align-self: flex-start;
+      top: 20px;
+      padding: 1rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 2rem;
+  border-radius: 0px;
+    }
+
+    .newsletter-form {
+      display: flex;
+      align-items: center;
+      flex: 1; /* Make the form section take more space */
+      max-width: 500px;
+      padding-top: 1rem;
+      padding-right: 9rem;
     }
   
     

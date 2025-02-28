@@ -9,15 +9,15 @@
   }
   
   .slider__item-01 {
-    background: linear-gradient(rgba(0, 28, 200, 0.7), rgba(0, 22, 95, 0.7)),
-      url("../assets/all-images/fortuner.png");
+    background: linear-gradient(rgba(0, 33, 90, 0.7), rgba(0, 33, 90, 0.7)),
+      url("../assets/all-images/pickup-car.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .slider__item-02 {
-    background: linear-gradient(rgba(0, 28, 200, 0.7), rgb(0, 22, 95, 0.7)),
+    background: linear-gradient(rgba(0, 33, 90, 0.7), rgb(0, 33, 90, 0.7)),
       url("../assets/all-images/pickup-car.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +25,8 @@
   }
   
   .slider__item-03 {
-    background: linear-gradient(rgb(0, 28, 200, 0.7), rgb(0, 22, 95, 0.7)),
-      url("../assets/all-images/harrier.png");
+    background: linear-gradient(rgb(0, 33, 90, 0.7), rgb(0, 33, 90, 0.7)),
+      url("../assets/all-images/pickup-car.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,21 +46,22 @@
   }
   
   .reserve__btn {
-    background: #fff !important;
-    color: #000d6b !important;
+    background: #43A800 !important;
+    color: #fff !important;
+    width: 10rem;
     border: none;
     outline: none;
   }
   
   .reserve__btn a {
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.0rem;
-    color: #000d6b;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #fff;
   }
   
   .reserve__btn:hover {
-    background: #000d6b;
+    background: #43A800;
     color: #fff;
   }
   

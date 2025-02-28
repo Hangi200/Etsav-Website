@@ -13,7 +13,7 @@
 
 /* pre define style*/
 h1,h2,h3,h4,h5,h6{
-    color: #000c68;
+    color: #43A800;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -41,14 +41,14 @@ ul{
 }
 
 .section_title{
-    color: #000d6b;
+    color: #252525;
     font-weight: 500;
     font-size: 1.8rem;
 }
 
 .section_subtitle{
-    color:#000d6b ;
-    font-weight:500 ;
+    color:#43A800;
+    font-weight:600 ;
     font-size: 1.1rem;
 }
 
@@ -66,7 +66,7 @@ ul{
 
 .btn{
     padding: 7px 15px;
-    background: #000d6b;
+    background: #43A800;
     color: #fff;
     border: none;
     outline: none;
