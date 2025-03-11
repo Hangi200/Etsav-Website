@@ -9,7 +9,7 @@ const serviceData = [
     {
       id: 2,
       title: "Air Ticketing",
-      icon: "ri-community-line",
+      icon: "ri-flight-takeoff-line",
       desc: "A whole city tour is a comprehensive guided tour that takes you through the key attractions and landmarks of a city, providing an overview of its history, culture, and unique features. These tours are popular for tourists who want to experience as much of the city as possible in a limited amount of time.",
     },
   
@@ -24,21 +24,21 @@ const serviceData = [
       id: 4,
       title: "Chauffered Service",
       icon: "ri-timer-flash-line",
-      desc: "Booking a car rental quickly and easily with helmic car rental, with us you can get a fast response and enjoying your beautiful jorney.",
+      desc: "Booking a car rental quickly and easily with Etsav car rental, with us you can get a fast response and enjoying your beautiful jorney.",
     },
   
     {
       id: 5,
       title: "Air Holiday Package",
-      icon: "ri-map-pin-line",
-      desc: "Choosing a car rental company with many pickup locations can greatly enhance convenience, especially if you’re traveling in a large city, across multiple cities, or internationally. Helmic car rental have many pickup location for all the client.",
+      icon: "ri-flight-takeoff-line",
+      desc: "Choosing a car rental company with many pickup locations can greatly enhance convenience, especially if you’re traveling in a large city, across multiple cities, or internationally. Etsav car rental have many pickup location for all the client.",
     },
   
     {
       id: 6,
       title: "Airport Transfer",
       icon: "ri-flight-takeoff-line",
-      desc: "Helmic car rental provide convenient transportation between an airport and your destination, whether it’s a hotel, home, or another location. These services are designed to make your journey smoother, especially after a long flight.",
+      desc: "Etsav car rental provide convenient transportation between an airport and your destination, whether it’s a hotel, home, or another location. These services are designed to make your journey smoother, especially after a long flight.",
     },
   ];
   

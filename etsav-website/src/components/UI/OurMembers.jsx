@@ -93,10 +93,10 @@ const OurMembers = () => {
   return (
     <>
       {OUR__MEMBERS.map((item, index) => (
-        <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-3">
-          <div className="single__member">
+        <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-3 pb-5">
+          <div className="single__member ">
             <div className="single__member-img">
-              <img src={item.imgUrl} alt="" className="w-100" />
+              <img src={item.imgUrl} alt="" className="w-80 align-center" />
 
               <div className="single__member-social">
                 <Link to={item.fbUrl}>

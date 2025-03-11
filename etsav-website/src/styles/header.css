@@ -18,19 +18,17 @@
 }
 
 .logo{
-  padding: 0rem;
+  padding: 1.5rem;
 }
 
 .main__navbar {
   display: flex;
-  flex-direction: row;
   background: #ffffff;
   position: fixed;
   width: 100%;
   z-index: 1000;
   box-shadow: 0 5px 30px rgba(0, 7, 14, 0.242);
-  height: 15vh;
-  padding: 0rem;
+  height: 8rem;
   align-items: center;
 }
 
@@ -48,7 +46,7 @@
   display: flex;
   align-items: center;
   column-gap: 2rem;
-  padding-right: 20rem;
+  padding-right: 2rem;
 }
 
 .nav__item {
@@ -56,18 +54,20 @@
   text-decoration: none;
   transition: 0.3s;
   font-size: 0.9rem;
+  justify-items: left;
   font-weight: 600;
+  padding: 0rem;
 }
 
 .navlinks{
   display: flex;
   flex-direction: row;
-  row-gap: rem;
-  padding-left: 10rem;
+  row-gap: 4rem;
+  
 }
 
 .nav__item:hover {
-  color: #027F57;
+  color: #43A800;
 }
 
 .nav__right{
@@ -117,7 +117,7 @@
   }
 
   .main__navbar {
-    height: auto;
+    height: 10rem;
   }
 
   .navigation {
@@ -131,9 +131,13 @@
     display: none;
   }
 
+  .logo{
+    display: none;
+  }
+
   .menu {
-    width: 20%;
-    height: 60%;
+    width: 50%;
+    height: 80%;
     padding-left: 5rem;
     padding: 1rem;
     background: #ffffff;

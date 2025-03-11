@@ -78,7 +78,7 @@ const Footer = () => {
    <div className="newsletter-container">
       <div className="newsletter-title">
         <h5>Newsletter</h5>
-        <h2>Your Success Journey Starts Here</h2>
+        <h2>Your Journey Starts Here</h2>
       </div>
       <form onSubmit={handleSubmit} className="newsletter-form">
         <input
@@ -137,9 +137,9 @@ only pride ourselves on being a leading car rental company offering premium-qual
             <div className="info mb-4">
               <h5 className="footer__link-title mb-4">Get In Touch</h5>
               <p className="office__info">Haile Selassie Road, Sky Mall, Masaki, Dar es salam, Tanzania</p>
-              <p className="office__info">Phone:  +255 735 404 405</p>
+              <p className="office__info">Phone:  +255 769 900 093</p>
 
-              <p className="office__info">Email: info@etsavgroup.com</p>
+              <p className="office__info">Email: info@etsavgroup.co.tz</p>
 
               <p className="office__info">Office Time: 8am - 5pm</p>
             </div>

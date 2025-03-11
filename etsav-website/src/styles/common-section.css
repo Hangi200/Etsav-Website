@@ -1,5 +1,5 @@
 .common__section {
-    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6)),
+    background: linear-gradient(rgba(58, 173, 29, 0.9), rgba(58, 173, 29, 0.9)),
       url("../assets/all-images/driver.jpeg");
     background-position: center;
     background-size: cover;

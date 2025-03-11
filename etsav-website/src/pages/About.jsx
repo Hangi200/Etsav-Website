@@ -16,32 +16,48 @@ const About = () => {
       <CommonSection title="About Us" />
       <AboutSection aboutClass="aboutPage" />
 
-      <section className="about__page-section">
+      <section className="about__page-section pb-5">
         <Container>
-          <Row>
+          
             {/* <Col lg="6" md="6" sm="12">
               <div className="about__page-img">
                 <img src={driveImg} alt="" className="w-200 h-200 rounded-4" />
               </div>
             </Col> */}
+            <div className="secContent flex">
+              <div className="about__page-content">
+                <h2 className="section_subtitle">
+                  Our Vision
+                </h2>
 
-            <Col lg="16" md="10" sm="12">
+                <p className="section_description">
+                We Are Here To Take You There.
+                </p>
+               
+                </div>
+               
+              <div className="about__page-content">
+                <h2 className="section_subtitle">
+                  Our Mission
+                </h2>
+
+                <p className="section_description">
+                We will strive to earn our customers loyalty byworking to deriver more than promised. 
+                
+                </p>
+              </div>
+                </div>
+
+            {/* <Col lg="16" md="10" sm="12">
               <div className="about__page-content">
                 <h2 className="section_title">
                   Our Vision
                 </h2>
 
-                <p className="section_description">
-                From the very day it was established, Helmic Car Rental has a clear vision: that of
-continuously developing this company into a premier one-stop car rental service
-boasting international standards.
-                </p>
-               
-                <p className="section_description">
-                Because of this devote commitment, the
-company is now able to offer useful advice on strategic vehicle planning to best
-suit the exacting requirements of many different types of company.
-                </p>
+                <h4 className="section_description ">
+                We Are Here To Take You There
+                </h4>
+          
                 </div>
                 </Col>
                 <Col lg="16" md="16" sm="12">
@@ -51,15 +67,14 @@ suit the exacting requirements of many different types of company.
                 </h2>
 
                 <p className="section_description">
-               - To continuously increase quality and standards of services. <br /> 
- - To increase the number of branches so as to be able to offer nationwide cover. <br /> 
-- To develop state-of-the-art technology so as to meet customer demands quickly and conveniently. <br />
-- To organise continuous staff training program so that the company can maintain high quality standards of service and offer excellent management.
-                </p>
+                We will strive to earn our customers loyalty byworking to deriver more than promised. 
+                being honest and fair and "going the extra mile' to provide exceptional
+                 personalized service that creates a pleasing business experience-.
+                    </p>
               </div>
                 </Col>
            
-           </Row>
+           </Row> */}
            
         </Container>
       </section>

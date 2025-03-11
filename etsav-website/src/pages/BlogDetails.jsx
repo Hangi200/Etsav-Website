@@ -88,7 +88,7 @@ const BlogDetails = () => {
                       ></textarea>
                     </FormGroup>
 
-                    <button className="btn comment__btn mt-3">
+                    <button className="btn comment__btn mt-3 p-2">
                       Post a Comment
                     </button>
                   </Form>
@@ -97,8 +97,8 @@ const BlogDetails = () => {
             </Col>
 
             <Col lg="4" md="4">
-              <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+              <div className="recent__post mb-4 p-4">
+                <h5 className=" fw-bold ">Recent Posts</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>

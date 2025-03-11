@@ -46,8 +46,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section_description">
- Nosa Group Formed in 1951 to reduce injuries and fatalities in the workplace, NOSA was acquired by MICROmega Holdings in 2005. Today, the company provides occupational health, safety and environmental risk management services and solutions
-
+ 
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -63,8 +62,7 @@ const Testimonial = () => {
       <div className="testimonial py-4 px-3">
         <p className="section_description">
           
-        Linksoft is a telecommunications company providing services in GSM Site Infrastructure.Linksoft helps companies maintain and optimize their network infrastructure in order to serve thousands of communities.
-        </p>
+              </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
@@ -79,8 +77,7 @@ const Testimonial = () => {
       <div className="testimonial py-4 px-3">
         <p className="section_description">
           
-        Group 4 Securicor plc is a leading international security services company operating in some 100 countries around the world with over 400,000 employees, was formed from the merger between Securicor plc and Group 4 Falck A/S's security business, which completed in July 2004.
-        </p>
+               </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
@@ -92,10 +89,9 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className="testimonial py-4 px-3">
+      <div className="testimonial py-4 px-3 ">
         <p className="section_description">
-        MAKTECH AND TEL CO. LIMITED (Maktech) is a dynamic and the leading telecom Services Provider in Tanzania since 2001. We are engaged in the installation and maintenance of telecom Infrastructures and equipment..
-        </p>
+          </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
@@ -108,8 +104,7 @@ const Testimonial = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p className="section_description">
-        Nokia Corporation, commonly referred to as Nokia, is a Finnish multinational telecommunications, information technology, and consumer electronics corporation, originally established as a pulp mill in 1865.
-
+        
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -123,8 +118,7 @@ const Testimonial = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p className="section_description">
-        Tigo is a telecommunication company in Tanzania. With over 13.5 million registered subscribers to their network, Tigo, directly and indirectly, employs over 300,000 Tanzanians including an extended network of customer service representatives.
-
+        
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">

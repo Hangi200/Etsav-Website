@@ -7,9 +7,9 @@ import "../../styles/header.css";
 
 const navLinks = [
   { path: "/home", display: "Home" },
-  { path: "/about", display: "About Us" },
-  { path: "/cars", display: "Services" },
-  { path: "/contact", display: "Contact Us" },
+  { path: "/about", display: "About " },
+  { path: "/cars", display: "Cars" },
+  { path: "/contact", display: "Contacts" },
   { path: "/blogs", display: "Blog" },
   
 ];
@@ -32,9 +32,9 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="main__navbar">
+      <div className="main__navbar ">
         <Container>
-          <div className="navigation__wrapper d-flex align-items-center justify-content-between">
+          <div className="navigation__wrapper d-flex align-items-center justify-content-between ">
             {/* Mobile Menu Icon */}
             <span className="mobile__menu">
               <i className="ri-menu-line" onClick={toggleMenu} aria-label="Toggle navigation"></i>
@@ -42,13 +42,13 @@ const Header = () => {
 
             {/* Navigation Links */}
             <div
-              className="navigation"
+              className="navigation "
               ref={menuRef}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="menu">
                 {/* Logo */}
-                <div className="logo">
+                <div className="logo w-50 p-40">
                   <img src={logo} alt="Company Logo" />
                 </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
                   <NavLink
                     to={item.path}
                     className={({ isActive }) =>
-                      isActive ? "nav__active nav__item" : "nav__item"
+                      isActive ? "nav__active nav__item" : "nav__item "
                     }
                     key={index}
                     onClick={closeMenu} // Close menu on link click

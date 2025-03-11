@@ -36,7 +36,7 @@ const Contact = () => {
               <h6 className="fw-bold mb-4 section_subtitle">Get In Touch</h6>
 
               <Form>
-                <FormGroup className="contact__form">
+                <FormGroup className="contact__form ">
                   <Input placeholder="Your Name" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
@@ -50,7 +50,7 @@ const Contact = () => {
                   ></textarea>
                 </FormGroup>
 
-                <button className=" contact__btn" type="submit">
+                <button className=" contact__btn " type="submit">
                   Send Message
                 </button>
               </Form>
@@ -67,12 +67,12 @@ const Contact = () => {
                 </div>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0 section_subtitle">Phone:</h6>
-                  <p className="section_description mb-0 ">+255 752 500 508</p>
+                  <p className="section_description mb-0 ">+255 769 900 093</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6 section_subtitle">Email:</h6>
-                  <p className="section_description mb-0">info@helmicgoup.com</p>
+                  <p className="section_description mb-0">info@etsavgoup.co.tz</p>
                 </div>
 
                 <h6 className="fw-bold mt-4 section_subtitle">Follow Us</h6>

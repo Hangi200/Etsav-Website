@@ -23,7 +23,7 @@ const AboutSection = ({ aboutClass }) => {
               Etsav travel agent and car rental, is member Of Helmic Group Cornpany Ltd.
                only pride ourselves on being a leading car rental company offering premium-quality cars and a highly efficient service, but we are also a company that can meet your every need.
                 taking you anywhere that you might want to go. When an the road. 
-                Etsav Car Rental can be your most trusted COmpaniOn. The company is even able to offer advice and tips regarding vehides and nw!ering that  help Vour company to grow successfully.	
+                Etsav Car Rental can be your most trusted Company.The company is even able to offer advice and tips regarding vehicles and monitoring that help your company to grow successfully.	
               </p>
 
               <div className="about__section-item d-grid align-items-center">

@@ -17,13 +17,14 @@ const ServicesList = () => {
 
 const ServiceItem = ({ item }) => (
   
-  <Col lg="6" md="6" sm="10" className="mb-0">
+  <Col lg="6" md="6" sm="10" className="mb-4">
     <div className="service__item">
       <span className="mb-4 d-inline-block">
-        <i class={item.icon} />
+        <i className={item.icon} />
+        <h6 className="">{item.title}</h6>
       </span>
 
-      <h6 className="P-2">{item.title}</h6>
+      
       <p className="section_description">{item.desc}</p>
     </div>
   </Col>
